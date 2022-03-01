@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %} Welcome to Krishan's world! {% endblock %}
+{% block content  %}
+
+	<div class = "container">
+	<h1>Hello World!!</h1>
+	<br><br>
+	<img src = "{{url_for('static', filename = 'images/dog.jpg')}}" width ="500" height="600" alt="voyager's pic" align="centre">
+	
+	</div>
+
+{% endblock %}
